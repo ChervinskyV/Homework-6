@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+  outline: 0px;
+}
+html {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.title {
+  font-size: 48px;
+  font-family: 'Roboto', serif;
+  color: rgb(81, 81, 81);
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 110px 0px 110px 0px;
+}
+.title::after {
+  content: '';
+  width: 164px;
+  height: 7px;
+  background-color: rgb(26, 188, 156);
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+/*technical*/
+.header-link {
+  padding: 40px;
+}
+.header-logo {
+  font-size: 30px;
+  font-family: 'Montserrat';
+  color: rgb(26, 188, 156);
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  float: left;
+  font-weight: bold;
+}
+
+.nav-list {
+  float: right;
+  margin-top: 10px;
+}
+.nav-list-item {
+  float: left;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.nav-list-link {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: rgb(26, 188, 156);
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.nav-list-link:hover:after {
+  content: '';
+  width: 50px;
+  height: 3px;
+  background-color: rgb(243, 129, 129);
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
