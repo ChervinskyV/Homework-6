@@ -46,13 +46,14 @@ a {
 }
 .title::after {
   content: '';
-  width: 164px;
-  height: 7px;
-  background-color: rgb(26, 188, 156);
+  width: 60px;
+  height: 3px;
+  background-color: rgb(243, 129, 129);
   display: block;
   margin: 0 auto;
   margin-top: 30px;
 }
+
 .container {
   width: 1200px;
   margin: 0px auto;
@@ -70,7 +71,6 @@ a {
   float: left;
   font-weight: bold;
 }
-
 .nav-list {
   float: right;
   margin-top: 10px;
@@ -90,12 +90,115 @@ a {
   letter-spacing: 0.28px;
   text-transform: uppercase;
 }
-.nav-list-link:hover:after {
+.nav-list-link:hover {
+  color: rgb(243, 129, 129);
+}
+.nav-list-link:hover::after {
   content: '';
-  width: 50px;
+  width: 42px;
   height: 3px;
   background-color: rgb(243, 129, 129);
   display: block;
   margin: 0 auto;
-  margin-top: 13px;
+  margin-top: 4px;
+  color: rgb(243, 129, 129);
+}
+/*Header*/
+
+.title-logo {
+  font-size: 24px;
+  font-family: 'KaushanScript';
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+}
+.title-text {
+  font-size: 30px;
+  font-family: 'Montserrat';
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card {
+  width: 382px;
+  height: 82px;
+}
+.card-image {
+  display: inline-block;
+}
+/*service*/
+/*our team*/
+.footer {
+  height: 64px;
+}
+.footer::before {
+  width: 1200px;
+  height: 1px;
+  background-color: rgb(229, 229, 229);
+  content: '';
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.footer-content {
+  width: 100%;
+}
+.footer-logo {
+  margin-top: 24px;
+  display: inline-block;
+}
+.©_2016_MoGo_free_PSD_template_by_Laaqiq {
+  font-size: 14px;
+  font-family: 'Montserrat' sans-serif;
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 359.938px;
+  top: 1625.85px;
+  z-index: 10;
+  float: left;
+}
+.footer-link {
+  color: rgb(243, 129, 129);
+}
+.footer-input {
+  float: right;
+  display: inline;
+  border: 1px solid rgb(231, 231, 231);
+  margin-top: 10px;
+}
+.footer-link {
+  align-items: center;
+}
+.input {
+  width: 234px;
+  height: 40px;
+  border-style: none;
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.input-button {
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: rgb(149, 225, 211);
+  width: 150px;
+  height: 40px;
+  border-style: none;
 }
