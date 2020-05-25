@@ -90,7 +90,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.28px;
   text-transform: uppercase;
-  position: relative;
 }
 .nav-list-link:hover {
   color: rgb(243, 129, 129);
@@ -184,8 +183,7 @@ a {
   justify-content: space-between;
   margin: 80px 0px 80px 0px;
 }
-.team-list-item {
-}
+
 .list-img-wraper {
   width: 380px;
   height: 472px;
@@ -239,9 +237,6 @@ a {
   width: 228px;
   top: 218px;
   left: 78px;
-}
-
-.social-list-item {
 }
 .social-list-item-link {
   width: 56px;
